@@ -1,11 +1,11 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'rake'
-require 'null_logger/version'
+require 'version'
 
 Gem::Specification.new do |spec|
   spec.name          = "null-logger"
-  spec.version       = NullLogger::VERSION
+  spec.version       = VERSION
   spec.authors       = ['Maciej Mensfeld', 'Adam Gwozdowski']
   spec.email         = %w( maciej@mensfeld.pl adam99g@gmail.com )
 

@@ -1,8 +1,13 @@
 require 'spec_helper'
 
-# This file basically only requires stuff
-RSpec.describe 'NullLogger' do
-  it 'should be defined' do
-    expect(defined?(NullLogger)).to eq 'constant'
+RSpec.describe NullLogger do
+  subject { described_class.new }
+
+  it 'return nil if call method from LOG_LEVELS array' do
+    expect(subject.warn).to eq nil
+  end
+
+  it 'raise exception if call method which not exist in LOG_LEVELS array' do
+    expect { subject.warnnnn }.to raise_error(NoMethodError)
   end
 end
