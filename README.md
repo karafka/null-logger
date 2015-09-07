@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/karafka/null-logger.svg?branch=master)](https://travis-ci.org/karafka/null-logger)
 [![Code Climate](https://codeclimate.com/github/karafka/null-logger/badges/gpa.svg)](https://codeclimate.com/github/karafka/null-logger)
+[![Gem Version](https://badge.fury.io/rb/null-logger.svg)](http://badge.fury.io/rb/null-logger)
 
 A simple logger that does not log anything. It can be used for defining an interface for other loggers.
 
