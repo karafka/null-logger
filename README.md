@@ -14,14 +14,14 @@ Add gem to your Gemfile
 ```
 
 ## Usage
-On NullLogger instance you can call method which corresponds to ruby typical log levels (unknown fatal error warn info debug).
-
-Example:
+On NullLogger instance you can call method which corresponds to ruby log levels (unknown, fatal, error, warn, info, debug), ex:
 
 ```ruby
   NullLogger.new.fatal # return nil
   NullLogger.new.wrong_method # raise NoMethodError
 ```
+
+NullLogger define interface for real logger instance, ex:
 
 ```ruby
   class Worker
