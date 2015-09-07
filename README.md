@@ -56,3 +56,10 @@ bundle exec rake
 ```
 
 to check if everything is in order. After that you can submit a pull request.
+
+## References
+
+* [Karafka framework](https://github.com/karafka/karafka)
+* [Waterdrop](https://github.com/karafka/waterdrop)
+* [Sidekiq Glass](https://github.com/karafka/sidekiq-glass)
+* [Envlogic](https://github.com/karafka/envlogic)
