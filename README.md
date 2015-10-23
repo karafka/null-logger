@@ -43,6 +43,16 @@ NullLogger define interface for real logger instance, ex:
   end
 ```
 
+
+## References
+
+* [Karafka framework](https://github.com/karafka/karafka)
+* [Waterdrop](https://github.com/karafka/waterdrop)
+* [Sidekiq Glass](https://github.com/karafka/sidekiq-glass)
+* [Envlogic](https://github.com/karafka/envlogic)
+* [Null Logger Travis CI](https://travis-ci.org/karafka/null-logger)
+* [Null Logger Code Climate](https://codeclimate.com/github/karafka/null-logger)
+
 ## Note on Patches/Pull Requests
 
 Fork the project.
@@ -57,10 +67,3 @@ bundle exec rake
 ```
 
 to check if everything is in order. After that you can submit a pull request.
-
-## References
-
-* [Karafka framework](https://github.com/karafka/karafka)
-* [Waterdrop](https://github.com/karafka/waterdrop)
-* [Sidekiq Glass](https://github.com/karafka/sidekiq-glass)
-* [Envlogic](https://github.com/karafka/envlogic)
