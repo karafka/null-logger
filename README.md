@@ -48,7 +48,7 @@ NullLogger define interface for real logger instance, ex:
 
 * [Karafka framework](https://github.com/karafka/karafka)
 * [Waterdrop](https://github.com/karafka/waterdrop)
-* [Sidekiq Glass](https://github.com/karafka/sidekiq-glass)
+* [Worker Glass](https://github.com/karafka/worker-glass)
 * [Envlogic](https://github.com/karafka/envlogic)
 * [Null Logger Travis CI](https://travis-ci.org/karafka/null-logger)
 * [Null Logger Code Climate](https://codeclimate.com/github/karafka/null-logger)
