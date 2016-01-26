@@ -5,7 +5,7 @@ require 'version'
 
 Gem::Specification.new do |spec|
   spec.name          = "null-logger"
-  spec.version       = VERSION
+  spec.version       = NullLogger::VERSION
   spec.authors       = ['Maciej Mensfeld', 'Adam Gwozdowski']
   spec.email         = %w( maciej@mensfeld.pl adam99g@gmail.com )
 

@@ -1,5 +1,5 @@
 require 'spec_helper'
 
 RSpec.describe NullLogger do
-  it { expect { VERSION }.not_to raise_error }
+  it { expect { NullLogger::VERSION }.not_to raise_error }
 end
