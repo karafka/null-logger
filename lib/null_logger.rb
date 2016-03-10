@@ -2,7 +2,7 @@
 # Is used when logger is not defined
 class NullLogger
   # Possible log levels from ruby Logger::Severity class
-  LOG_LEVELS = %w( unknown fatal error warn info debug )
+  LOG_LEVELS = %w( unknown fatal error warn info debug ).freeze
 
   # Returns nil for any method call from LOG_LEVELS array
   # Instead raise NoMethodError
