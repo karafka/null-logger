@@ -8,7 +8,7 @@ class NullLogger
 
   # @return [Boolean] true if we can handle this missing method, otherwise false
   # @param method_name [String, Symbol] method name
-  # @param include_private [Boolean] should we include privat methods as well
+  # @param include_private [Boolean] should we include private methods as well
   def respond_to_missing?(method_name, include_private = false)
     LOG_LEVELS.include?(method_name.to_s) || super
   end
