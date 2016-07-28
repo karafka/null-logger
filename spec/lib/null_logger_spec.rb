@@ -1,8 +1,6 @@
 require 'spec_helper'
 
 RSpec.describe NullLogger do
-  subject { described_class.new }
-
   context 'logs level handling' do
     it 'return nil if call method from LOG_LEVELS array' do
       expect(subject.warn).to be nil
