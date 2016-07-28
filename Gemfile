@@ -5,4 +5,3 @@ gemspec
 group :development, :test do
   gem 'polishgeeks-dev-tools'
 end
-

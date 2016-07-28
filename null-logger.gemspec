@@ -13,6 +13,7 @@ Gem::Specification.new do |spec|
   spec.description   = 'It can be used for defining an interface for other loggers'
   spec.homepage      = 'https://github.com/karafka/null-logger'
   spec.license       = 'MIT'
+  spec.required_ruby_version = '>= 2.2.0'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(spec)/}) }
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
