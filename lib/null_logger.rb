@@ -3,7 +3,12 @@
 class NullLogger
   # Possible log levels from ruby Logger::Severity class
   LOG_LEVELS = %w(
-    unknown fatal error warn info debug
+    unknown
+    fatal
+    error
+    warn
+    info
+    debug
   ).freeze
 
   # @return [Boolean] true if we can handle this missing method, otherwise false
