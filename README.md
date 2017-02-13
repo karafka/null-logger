@@ -12,7 +12,7 @@ A simple logger that does not log anything. It can be used for defining an inter
 
 Add gem to your Gemfile
 ```ruby
-  gem 'null-logger'
+  gem 'null-logger', require: 'null-logger'
 ```
 
 ## Usage
