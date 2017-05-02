@@ -1,15 +1,17 @@
+# frozen_string_literal: true
+
 # Null logger class
 # Is used when logger is not defined
 class NullLogger
   # Possible log levels from ruby Logger::Severity class
-  LOG_LEVELS = %w(
+  LOG_LEVELS = %w[
     unknown
     fatal
     error
     warn
     info
     debug
-  ).freeze
+  ].freeze
 
   # @return [Boolean] true if we can handle this missing method, otherwise false
   # @param method_name [String, Symbol] method name

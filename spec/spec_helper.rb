@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 
@@ -15,6 +17,8 @@ SimpleCov.start do
   add_filter '/config/'
   merge_timeout 600
 end
+
+SimpleCov.minimum_coverage 100
 
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each { |f| require f }
 
