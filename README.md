@@ -46,6 +46,7 @@ NullLogger define interface for real logger instance, ex:
 ## References
 
 * [Karafka framework](https://github.com/karafka/karafka)
+* [Null Logger Travis CI](https://travis-ci.org/karafka/null-logger)
 * [Null Logger Coditsu](https://app.coditsu.io/karafka/repositories/null-logger)
 
 ## Note on Patches/Pull Requests
