@@ -18,7 +18,8 @@ SimpleCov.start do
   merge_timeout 600
 end
 
-SimpleCov.minimum_coverage 100
+# jruby counts coverage a bit differently, so we ignore that
+SimpleCov.minimum_coverage jruby? ? 75 : 100
 
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each { |f| require f }
 
