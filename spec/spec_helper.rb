@@ -7,6 +7,11 @@ require 'rubygems'
 require 'simplecov'
 require 'rake'
 
+# @return [Boolean] true if we run against jruby
+def jruby?
+  ENV['RUBY_VERSION'].include?('jruby')
+end
+
 # Don't include unnecessary stuff into rcov
 SimpleCov.start do
   add_filter '/spec/'
