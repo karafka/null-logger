@@ -1,5 +1,8 @@
 # Null-Logger changelog
 
+## Unreleased
+- Ruby 2.4.2 support
+
 ## 0.1.4
 - Ruby 2.4.1 as default
 - Gem bump
