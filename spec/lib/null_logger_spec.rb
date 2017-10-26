@@ -1,25 +1,34 @@
 # frozen_string_literal: true
 
 RSpec.describe NullLogger do
+  subject { logger }
+
   let(:logger) { described_class.new }
 
-  context 'logs level handling' do
-    it 'return nil if call method from LOG_LEVELS array' do
-      expect(logger.warn).to be nil
-    end
+  it { is_expected.to respond_to(:unknown) }
+  it { is_expected.to respond_to(:fatal) }
+  it { is_expected.to respond_to(:error) }
+  it { is_expected.to respond_to(:warn) }
+  it { is_expected.to respond_to(:info) }
+  it { is_expected.to respond_to(:debug) }
 
-    it 'raise exception if call method which not exist in LOG_LEVELS array' do
-      expect { logger.warnnnn }.to raise_error(NoMethodError)
-    end
+  it 'returns false for debug?' do
+    expect(logger.debug?).to be_falsey
   end
 
-  describe '#respond_to_missing?' do
-    context 'when this is a log level' do
-      it { expect(logger.send(:respond_to_missing?, :warn)).to be true }
-    end
+  it 'returns false for info?' do
+    expect(logger.info?).to be_falsey
+  end
 
-    context 'when this is not a log level' do
-      it { expect(logger.send(:respond_to_missing?, :warnnnn)).to be false }
-    end
+  it 'returns false for error?' do
+    expect(logger.error?).to be_falsey
+  end
+
+  it 'returns false for warn?' do
+    expect(logger.warn?).to be_falsey
+  end
+
+  it 'returns false for fatal?' do
+    expect(logger.fatal?).to be_falsey
   end
 end

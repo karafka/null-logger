@@ -1,32 +1,69 @@
 # frozen_string_literal: true
 
-# Null logger class
-# Is used when logger is not defined
+# Null logger class. This is essentially the same as sending data down the
+# `/dev/null` blackhole.
+#
+# @example Basic Usage
+#
+#   logger = NullLogger.new
+#   Rails.logger = logger
+#
+#
+# @example Basic Pattern Usage
+#   class SomeService
+#     def initialize(options = {})
+#       @logger = options[:logger] || NullLogger.new
+#     end
+#
+#     def perform
+#       @logger.debug -> { "do some work here" }
+#       # .. ..
+#       @logger.info -> { "finished working" }
+#     end
+#   end
+#
+#   service = SomeService.new(logger: Logger.new(STDOUT))
+#   service.perform
+#
+#   silent = SomeService.new(logger: NullLogger.new
+#   silent.perform
+#
 class NullLogger
-  # Possible log levels from ruby Logger::Severity class
-  LOG_LEVELS = %w[
-    unknown
-    fatal
-    error
-    warn
-    info
-    debug
-  ].freeze
-
-  # @return [Boolean] true if we can handle this missing method, otherwise false
-  # @param method_name [String, Symbol] method name
-  # @param include_private [Boolean] should we include private methods as well
-  def respond_to_missing?(method_name, include_private = false)
-    LOG_LEVELS.include?(method_name.to_s) || super
+  def unknown(*)
   end
 
-  # Returns nil for any method call from LOG_LEVELS array
-  # Instead raise NoMethodError
-  # @example:
-  #   NullLogger.new.fatal -> return nil
-  #   NullLogger.new.wrong_method -> raise NoMethodError
-  def method_missing(method_name, *args, &block)
-    return nil if LOG_LEVELS.include?(method_name.to_s)
-    super
+  def fatal(*)
+  end
+
+  def fatal?
+    false
+  end
+
+  def error(*)
+  end
+
+  def error?
+    false
+  end
+
+  def warn(*)
+  end
+
+  def warn?
+    false
+  end
+
+  def info(*)
+  end
+
+  def info?
+    false
+  end
+
+  def debug(*)
+  end
+
+  def debug?
+    false
   end
 end
