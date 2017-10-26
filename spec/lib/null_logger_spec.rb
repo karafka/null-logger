@@ -13,22 +13,22 @@ RSpec.describe NullLogger do
   it { is_expected.to respond_to(:debug) }
 
   it 'returns false for debug?' do
-    expect(logger.debug?).to be_falsey
+    expect(logger).not_to be_debug
   end
 
   it 'returns false for info?' do
-    expect(logger.info?).to be_falsey
+    expect(logger).not_to be_info
   end
 
   it 'returns false for error?' do
-    expect(logger.error?).to be_falsey
+    expect(logger).not_to be_error
   end
 
   it 'returns false for warn?' do
-    expect(logger.warn?).to be_falsey
+    expect(logger).not_to be_warn
   end
 
   it 'returns false for fatal?' do
-    expect(logger.fatal?).to be_falsey
+    expect(logger).not_to be_fatal
   end
 end

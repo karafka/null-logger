@@ -5,7 +5,6 @@ $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 
 require 'rubygems'
 require 'simplecov'
-require 'rake'
 
 # @return [Boolean] true if we run against jruby
 def jruby?
