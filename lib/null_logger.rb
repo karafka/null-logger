@@ -29,13 +29,13 @@
 #   silent.perform
 #
 class NullLogger
-  # @param *_ Anything that we want to ignore
+  # @param _ Anything that we want to ignore
   # @return [nil]
   def unknown(*_)
     nil
   end
 
-  # @param *_ Anything that we want to ignore
+  # @param _ Anything that we want to ignore
   # @return [nil]
   def fatal(*_)
     nil
@@ -46,7 +46,7 @@ class NullLogger
     false
   end
 
-  # @param *_ Anything that we want to ignore
+  # @param _ Anything that we want to ignore
   # @return [nil]
   def error(*_)
     nil
@@ -57,7 +57,7 @@ class NullLogger
     false
   end
 
-  # @param *_ Anything that we want to ignore
+  # @param _ Anything that we want to ignore
   # @return [nil]
   def warn(*_)
     nil
@@ -68,7 +68,7 @@ class NullLogger
     false
   end
 
-  # @param *_ Anything that we want to ignore
+  # @param _ Anything that we want to ignore
   # @return [nil]
   def info(*_)
     nil
@@ -79,7 +79,7 @@ class NullLogger
     false
   end
 
-  # @param *_ Anything that we want to ignore
+  # @param _ Anything that we want to ignore
   # @return [nil]
   def debug(*_)
     nil
