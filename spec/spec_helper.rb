@@ -23,7 +23,7 @@ SimpleCov.start do
 end
 
 # jruby counts coverage a bit differently, so we ignore that
-SimpleCov.minimum_coverage jruby? ? 75 : 100
+SimpleCov.minimum_coverage jruby? ? 70 : 100
 
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each { |f| require f }
 
