@@ -60,4 +60,3 @@ To check if everything is as it should be, we use [Coditsu](https://coditsu.io) 
 Coditsu will automatically check your work against our quality standards. You can find your commit check results on the [builds page](https://app.coditsu.io/karafka/repositories/null-logger/builds/commit_builds) of NullLogger repository.
 
 [![coditsu](https://coditsu.io/assets/quality_bar.svg)](https://app.coditsu.io/karafka/repositories/null-logger/builds/commit_builds)
-
