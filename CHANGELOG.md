@@ -3,6 +3,7 @@
 ## 0.1.5 Unreleased
 - Ruby 2.4.2 support
 - #5 - Could be faster
+- Ruby 2.5.0 support
 
 ## 0.1.4
 - Ruby 2.4.1 as default
