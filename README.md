@@ -8,20 +8,20 @@ A simple logger that does not log anything. It can be used for defining an inter
 
 ## Installation
 
-Add gem to your Gemfile
+Add the gem to your Gemfile
 ```ruby
   gem 'null-logger', require: 'null_logger'
 ```
 
 ## Usage
-On NullLogger instance you can call methods which corresponds to Ruby Logger log levels (unknown, fatal, error, warn, info, debug), ex:
+On NullLogger instance you can call methods which correspond to Ruby Logger log levels (unknown, fatal, error, warn, info, debug), ex:
 
 ```ruby
   NullLogger.new.fatal # return nil
   NullLogger.new.wrong_method # raise NoMethodError
 ```
 
-NullLogger define interface for real logger instance, ex:
+NullLogger defines an interface for real logger instance, ex:
 
 ```ruby
   class Worker
@@ -53,7 +53,7 @@ NullLogger define interface for real logger instance, ex:
 
 First, thank you for considering contributing to NullLogger! It's people like you that make the open source community such a great community!
 
-Each pull request must pass all the rspec specs and meet our quality requirements.
+Each pull request must pass all the RSpec specs and meet our quality requirements.
 
 To check if everything is as it should be, we use [Coditsu](https://coditsu.io) that combines multiple linters and code analyzers for both code and documentation. Once you're done with your changes, submit a pull request.
 
