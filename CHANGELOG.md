@@ -1,6 +1,7 @@
 # Null-Logger changelog
 
-## 0.1.5 Unreleased
+## master
+- drop jruby support
 - Ruby 2.4.2 support
 - #5 - Could be faster
 - Ruby 2.5.0 support
