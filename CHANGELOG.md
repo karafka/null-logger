@@ -2,6 +2,7 @@
 
 ## master
 - drop jruby support
+- drop ruby 2.2 support
 - Ruby 2.4.2 support
 - #5 - Could be faster
 - Ruby 2.5.0 support
