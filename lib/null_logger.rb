@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # Null logger class. This is essentially the same as sending data down the
-# `/dev/null` blackhole.
+# `/dev/null` black hole.
 #
 # @example Basic Usage
 #
