@@ -1,13 +1,13 @@
 # Null-Logger changelog
 
-## master
+## Unreleased (master)
 - drop jruby support
 - drop ruby 2.2 support
 - drop ruby 2.3 support
 - drop ruby 2.4 support
 - #5 - Could be faster
-- Ruby 2.5.0 support
-- Ruby 2.6.3 support
+- Ruby 2.5.5 support
+- Ruby 2.6.5 support
 
 ## 0.1.4
 - Ruby 2.4.1 as default
