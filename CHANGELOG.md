@@ -8,6 +8,7 @@
 - #5 - Could be faster
 - Ruby 2.5.5 support
 - Ruby 2.6.5 support
+- Ruby 2.7.0 support
 
 ## 0.1.4
 - Ruby 2.4.1 as default
