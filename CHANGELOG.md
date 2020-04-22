@@ -1,6 +1,6 @@
 # Null-Logger changelog
 
-## Unreleased (master)
+## 0.1.5 (master)
 - drop jruby support
 - drop ruby 2.2 support
 - drop ruby 2.3 support
@@ -8,7 +8,9 @@
 - #5 - Could be faster
 - Ruby 2.5.5 support
 - Ruby 2.6.5 support
-- Ruby 2.7.0 support
+- Ruby 2.7.1 support
+- Replace travis with GH actions
+- Support signing the releases
 
 ## 0.1.4
 - Ruby 2.4.1 as default
