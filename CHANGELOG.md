@@ -1,6 +1,6 @@
 # Null-Logger changelog
 
-## 0.1.5 (master)
+## 0.1.6 (2020-04-22)
 - drop jruby support
 - drop ruby 2.2 support
 - drop ruby 2.3 support
@@ -11,6 +11,9 @@
 - Ruby 2.7.1 support
 - Replace travis with GH actions
 - Support signing the releases
+
+## 0.1.5
+- Define the methods to quack like a logger
 
 ## 0.1.4
 - Ruby 2.4.1 as default
