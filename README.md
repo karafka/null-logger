@@ -1,6 +1,6 @@
 # Null Logger
 
-[![Build Status](https://travis-ci.org/karafka/null-logger.svg?branch=master)](https://travis-ci.org/karafka/null-logger)
+[![Build Status](https://github.com/karafka/null-logger/workflows/ci/badge.svg)](https://github.com/karafka/null-logger/actions?query=workflow%3Aci)
 [![Join the chat at https://gitter.im/karafka/karafka](https://badges.gitter.im/karafka/karafka.svg)](https://gitter.im/karafka/karafka?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 A simple logger that does not log anything. It can be used for defining an interface for other loggers.
@@ -46,7 +46,7 @@ NullLogger defines an interface for real logger instance, ex:
 ## References
 
 * [Karafka framework](https://github.com/karafka/karafka)
-* [Null Logger Travis CI](https://travis-ci.org/karafka/null-logger)
+* [Null Logger Actions CI](https://github.com/karafka/null-logger/actions?query=workflow%3Aci)
 * [Null Logger Coditsu](https://app.coditsu.io/karafka/repositories/null-logger)
 
 ## Note on contributions
