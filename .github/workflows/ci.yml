@@ -15,6 +15,8 @@ jobs:
           - "2.7"
           - "2.6"
           - "2.5"
+          - "jruby"
+          - "truffleruby"
     steps:
       - uses: actions/checkout@v2
       - name: Install package dependencies
