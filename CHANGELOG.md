@@ -1,5 +1,9 @@
 # Null-Logger changelog
 
+## master
+- restore JRuby support
+- add TruffleRuby support
+
 ## 0.1.6 (2020-04-22)
 - drop jruby support
 - drop ruby 2.2 support
