@@ -19,10 +19,11 @@ if coverage
     add_filter '/.bundle/'
     add_filter '/doc/'
     add_filter '/config/'
-    merge_timeout 600
-  end
 
-  SimpleCov.minimum_coverage 100
+    merge_timeout 600
+    minimum_coverage 100
+    enable_coverage :branch
+  end
 end
 
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"]
