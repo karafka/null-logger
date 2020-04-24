@@ -1,8 +1,9 @@
 # Null-Logger changelog
 
-## master
+## 0.1.7 (2020-04-24)
 - restore JRuby support
 - add TruffleRuby support
+- Change license to LGPL-3.0
 
 ## 0.1.6 (2020-04-22)
 - drop jruby support

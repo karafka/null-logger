@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.summary     = 'A simple logger that does not log anything.'
   spec.description = 'It can be used for defining an interface for other loggers'
   spec.homepage    = 'https://github.com/karafka/null-logger'
-  spec.license     = 'MIT'
+  spec.license     = 'LGPL-3.0'
 
   spec.required_ruby_version = '>= 2.5.0'
 
