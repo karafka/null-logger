@@ -2,7 +2,7 @@
 
 [![Build Status](https://github.com/karafka/null-logger/workflows/ci/badge.svg)](https://github.com/karafka/null-logger/actions?query=workflow%3Aci)
 [![Gem Version](https://badge.fury.io/rb/null-logger.svg)](http://badge.fury.io/rb/null-logger)
-[![Join the chat at https://gitter.im/karafka/karafka](https://badges.gitter.im/karafka/karafka.svg)](https://gitter.im/karafka/karafka?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/karafka/karafka](https://badges.gitter.im/karafka/karafka.svg)](https://gitter.im/karafka/karafka)
 
 A simple logger that does not log anything. It can be used for defining an interface for other loggers.
 
