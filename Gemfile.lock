@@ -29,8 +29,7 @@ GEM
     simplecov_json_formatter (0.1.2)
 
 PLATFORMS
-  ruby
-  x86_64-darwin-19
+  x86_64-linux
 
 DEPENDENCIES
   null-logger!
@@ -38,4 +37,4 @@ DEPENDENCIES
   simplecov
 
 BUNDLED WITH
-   2.2.11
+   2.2.13
