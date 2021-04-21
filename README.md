@@ -1,4 +1,6 @@
-# Null Logger
+# Null Logger [Unmaintained]
+
+Note: This library is no longer in use in the Karafka ecosystem. It was developed for Karafka versions prior to 1.0. If you're using this library and want to take it over, please ping us.
 
 [![Build Status](https://github.com/karafka/null-logger/workflows/ci/badge.svg)](https://github.com/karafka/null-logger/actions?query=workflow%3Aci)
 [![Gem Version](https://badge.fury.io/rb/null-logger.svg)](http://badge.fury.io/rb/null-logger)
